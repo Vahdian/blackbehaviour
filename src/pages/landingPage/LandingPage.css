@@ -1,0 +1,50 @@
+.landingPage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18rem;
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    font-size: 3rem;
+}
+
+sup{
+    font-size: 5rem;
+}
+
+.landingPage--button{
+    font-size: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.landingPage--email{
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.landingPage--image{
+    height: 3rem;
+    margin-top: 5rem;
+    text-decoration: none;
+    
+}
+
+:hover.landingPage--email{
+    font-size: 1.5rem;
+   color: rgb(177, 177, 177);
+   cursor: pointer;
+}
+
+.title{
+    color: rgb(207, 162, 37);
+}
